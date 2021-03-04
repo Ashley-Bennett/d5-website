@@ -1,0 +1,45 @@
+body {
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(137deg, rgba(0, 0, 0, 1) 0%, rgba(250, 232, 0, 1) 89%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header_nav h1 {
+    cursor: pointer;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.content {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.profile img {
+    width: 100px;
+    height: auto;
+}
